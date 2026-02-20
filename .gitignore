@@ -1,0 +1,20 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Gradle
+.gradle/
+.gradle-user-home/
+build/
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
