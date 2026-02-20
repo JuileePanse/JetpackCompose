@@ -5,9 +5,10 @@ A **showcase Android app** built with **Jetpack Compose** and **MVVM**. Uses a s
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/task_list.png" width="250" alt="Task List Screen"/>
-  <img src="screenshots/add_task.png" width="250" alt="Add Task Screen"/>
-  <img src="screenshots/task_detail.png" width="250" alt="Task Detail Screen"/>
+  <img src="screenshots/Screenshot4.png" width="250" alt="Add Task Screen"/>
+  <img src="screenshots/Screenshot3.png" width="250" alt="Task List Screen"/>
+  <img src="screenshots/Screenshot2.png" width="250" alt="Task Detail Screen"/>
+  <img src="screenshots/Screenshot1.png" width="250" alt="Search Tasks"/>
 </p>
 
 ## What This Showcase Demonstrates
