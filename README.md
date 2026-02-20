@@ -2,6 +2,14 @@
 
 A **showcase Android app** built with **Jetpack Compose** and **MVVM**. Uses a single-activity Compose UI, Room, Hilt, and a clear layered architecture.
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/task_list.png" width="250" alt="Task List Screen"/>
+  <img src="screenshots/add_task.png" width="250" alt="Add Task Screen"/>
+  <img src="screenshots/task_detail.png" width="250" alt="Task Detail Screen"/>
+</p>
+
 ## What This Showcase Demonstrates
 
 ### Architecture (MVVM + Clean separation)
