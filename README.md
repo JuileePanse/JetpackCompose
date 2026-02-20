@@ -1,15 +1,6 @@
-# Compose Showcase — Senior-Level Jetpack Compose + MVVM
+# Compose Showcase — Jetpack Compose + MVVM
 
 A **showcase Android app** built with **Jetpack Compose** and **MVVM**. Uses a single-activity Compose UI, Room, Hilt, and a clear layered architecture.
-
-## Screenshots
-
-<p align="left">
-  <img src="screenshots/Screenshot4.png" width="200" alt="Add Task Screen"/>
-  <img src="screenshots/Screenshot3.png" width="200" alt="Task List Screen"/>
-  <img src="screenshots/Screenshot2.png" width="200" alt="Task Detail Screen"/>
-  <img src="screenshots/Screenshot1.png" width="200" alt="Search Tasks"/>
-</p>
 
 ## What This Showcase Demonstrates
 
@@ -28,7 +19,7 @@ A **showcase Android app** built with **Jetpack Compose** and **MVVM**. Uses a s
 | Async       | Kotlin Coroutines + Flow |
 | Architecture| Repository pattern, Use cases (domain layer) |
 
-### Senior-Level Practices
+### Details
 1. **Single source of truth**: Repository abstracts data; ViewModels never touch Room/DAO directly.
 2. **Reactive streams**: `Flow` from DAO → Repository → Use case → ViewModel → UI.
 3. **Use cases**: One responsibility per use case (GetAllTasks, SearchTasks, AddTask, etc.).
@@ -103,6 +94,11 @@ If you see *"SDK location not found"*, the path in `local.properties` or `ANDROI
 - Add **saved state** for search query (e.g. `SavedStateHandle`).
 - Add **exportSchema = true** and migration tests for Room.
 
----
+## Screenshots
 
-Built to demonstrate **Jetpack Compose**, **MVVM**, **Hilt**, **Room**, and **Clean Architecture** at a senior Android level.
+<p align="left">
+  <img src="screenshots/Screenshot4.png" width="200" alt="Add Task Screen"/>
+  <img src="screenshots/Screenshot3.png" width="200" alt="Task List Screen"/>
+  <img src="screenshots/Screenshot2.png" width="200" alt="Task Detail Screen"/>
+  <img src="screenshots/Screenshot1.png" width="200" alt="Search Tasks"/>
+</p>
